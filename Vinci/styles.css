@@ -1,0 +1,226 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #fa883c;
+    width: 2000px;
+    height: 2000px;
+}
+
+nav{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: white;
+    margin-top: 40px;
+}
+
+div#left{
+    margin-left: 150px;
+}
+
+div#left img {
+    width: 250px;
+    height: 250px;
+}
+
+div#right img {
+    height: 50px;
+    width: 50px;
+}
+
+ul {
+    margin: 0px 100px 0px 80px;
+    display: flex;
+    background-color: white;
+    padding: 0;
+}
+
+div#center li{
+    box-sizing: border-box;
+    list-style-type: none;
+    color: #fa883c;
+    padding: 0px 25px;
+    height: 100px;
+    padding-top: 35px;
+    font-size: 20px;
+}
+
+div#body {
+    margin-top: 10px;
+    width: 2000px;
+    height: 2000px;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+ul#cores {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 100px
+}
+
+ul#modelos {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 50px
+}
+
+ul#preços {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    margin-top: 50px
+}
+
+
+li.principal {
+    font-size: 20px;
+}
+
+div#body {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+
+span#title{
+    position: absolute;
+    font-size: 40px;
+    margin: 40px 0px 0px 170px;
+}
+
+ul#cores li {
+    margin: 25px 0px 0px 100px; 
+}
+
+ul#modelos li {
+    margin: 25px 0px 0px 100px; 
+}
+
+ul#preços li {
+    margin: 25px 0px 0px 100px; 
+}
+
+li.especial{
+    text-decoration: underline;
+    opacity: 0.55;
+}
+
+#guitar{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 130px;
+    right: 1200px;
+}
+
+#guitar3{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 130px;
+    right: 400px;
+}
+
+#guitar2{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 130px;
+    right: 800px;
+}
+
+.imgs{
+    width: 350px;
+    height: 350px;
+}
+
+span.brand{
+    margin: 10px auto 0px;
+    font-size: 16px;
+}
+
+span.price{
+    margin: 10px auto 0px ;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+span.parcelas {
+    margin: 10px auto 0px ;
+    font-size: 16px;
+}
+
+button.comprar{
+    color: white;
+    background-color:#fa883c;
+    margin: 20px auto 0px;
+    border: none;
+    height: 50px;
+    width: 200px;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 2px;
+
+}
+
+#guitar4{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 680px;
+    right: 1200px;
+}
+
+#guitar5{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 680px;
+    right: 400px;
+}
+
+#guitar6{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 680px;
+    right: 800px;
+}
+
+#guitar7{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 1240px;
+    right: 1200px;
+}
+
+#guitar8{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1240px;
+    right: 400px;
+}
+
+#guitar9{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 1240px;
+    right: 800px;
+}
+
+.footer{
+    color: white;
+    background-color: #fa883c;
+    text-align: center;
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+    height: 150px;
+}
